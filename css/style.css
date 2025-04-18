@@ -1,1 +1,118 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(180deg, #0a0a0a, #17530b);
+  color: white;
+  min-height: 100vh;
+}
+
+/* Header */
+.topo {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 60px;
+}
+
+.botoes-topo {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-login {
+  background: transparent;
+  color: white;
+}
+
+.btn-cadastro {
+  background-color: #22c55e;
+  color: white;
+}
+
+.btn-cadastro:hover {
+  background-color: #16a34a;
+}
+
+/* Menu Lateral */
+.menu-lateral {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 70px;
+  height: 100%;
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  gap: 20px;
+}
+
+.menu-lateral img {
+  width: 30px;
+  height: 30px;
+}
+
+/* Conteúdo principal */
+.conteudo {
+  margin-left: 80px;
+  padding: 20px;
+}
+
+.selecao .titulo {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.dias {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.dia {
+  border: 1px solid #22c55e;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  width: 100px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.dia span {
+  display: block;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+/* Rodapé */
+.rodape {
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  background: linear-gradient(90deg, #0a0a0a, #17530b);
+  font-size: 14px;
+}
 /* CSS da página clonada aqui */
